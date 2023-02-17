@@ -1,0 +1,28 @@
+@font-face{
+    font-family:'Hatton-Semibold' ;
+    src: 'Hatton-Semibold.otf')
+  }
+  body{font-family:'Hatton-Semibold'}
+  p{font-family:'Hatton-Semibold'}
+
+
+.yes{
+    top: 20px;
+    width: 800px;
+    position:absolute;
+    right:0px;
+  
+}
+.text{
+    position: absolute;
+    top: 0;
+    font-size: 600px;
+    line-height: 0.5;
+   
+}
+   
+.body {
+    margin: 0;
+    padding: 0;
+  }
+
