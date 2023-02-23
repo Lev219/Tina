@@ -1,0 +1,42 @@
+@font-face{
+    font-family:'Inter light' ;
+    src: 'Inter light.ttf')
+  }
+  body{font-family:'Inter light'}
+  br{font-family:'Inter light'}
+
+  .pink1 {
+    width: 100px;
+    position:absolute;
+    left:30px;
+    top:100px;
+}
+.one{
+    position: absolute;
+    left:100px;
+    top:120px;
+}
+.two{
+    position: absolute;
+    left:100px;
+    top:270px;
+}
+
+.three{
+    position: absolute;
+    left:100px;
+    top:420px;
+}
+
+.pink2 {
+    width: 100px;
+    position:absolute;
+    left:30px;
+    top:250px;
+}
+.pink3 {
+    width: 100px;
+    position:absolute;
+    left:30px;
+    top:400px;
+}
