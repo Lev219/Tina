@@ -24,18 +24,16 @@ html, body {
     width: 50px;
     position:absolute;
     right:750px;
+    max-width:100%;
   }
   .black{
     top:680px;
     width: 50px;
     position:absolute;
     right:820px;
+    max-width:100%;
   }
-  .haxgon{
-    height:auto;
-    width:auto\9;
-    width:100%;
-  }
+
   .name{
     position: absolute;
     top:30px;
