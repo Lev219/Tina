@@ -1,0 +1,13 @@
+@font-face{
+    font-family:'Inter light' ;
+    src: 'Inter light.ttf')
+  }
+  body{font-family:'Inter light'}
+  br{font-family:'Inter light'}
+
+  .vase {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
