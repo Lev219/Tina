@@ -1,0 +1,74 @@
+@font-face{
+    font-family:'Inter light' ;
+    src: 'Inter light.ttf')
+  }
+  body{font-family:'Inter light'}
+  br{font-family:'Inter light'}
+
+
+.center {
+    display: flex;
+    margin-left: auto;
+    margin-right:  auto;
+    width: 80%;
+    margin-top: -150px;
+   
+   
+  }
+
+  /* .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+  } */
+
+.lib{
+    top:305px;
+    width: 110px;
+    position:absolute;
+    left:420px;
+}
+.scrollbox {
+    overflow: auto;
+    width: 220px;
+    max-height: 470px;
+    position: absolute;
+    left:600px;
+    top:155px;
+    font-size: 16px;
+    --g:radial-gradient(55% 20px);  
+    background: 
+      linear-gradient(#fff 10px, #0000 40px calc(100% - 40px),#fff calc(100% - 10px)) local, 
+      var(--g) top   /100% 200%,    
+      var(--g) bottom/100% 200%;
+  }
+  
+  .goback{
+    top: 900px;
+    width: 80px;
+    position:absolute;
+    left:450px;
+
+}
+.next{
+    top: 900px;
+    width: 80px;
+    position:absolute;
+    left:1230px;
+}
+
+.body {
+        margin: 0;
+        padding: 0;
+      }
+.img {
+        display: block;
+        margin: 0;
+        padding: 0;
+      }
+
+.img {
+    vertical-align: top;
+  }
