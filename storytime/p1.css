@@ -52,13 +52,13 @@
 .img1{
     top: 420px;
     width: 150px;
-    position:relative;
+    position:fixed;
     left:690px;
 
 }
 .img2{
     top: 620px;
     width: 150px;
-    position:relative;
+    position:fixed;
     left:510px;
 }
