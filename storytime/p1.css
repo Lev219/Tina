@@ -16,7 +16,7 @@
     overflow: auto;
     width: 350px;
     max-height: 600px;
-    position: absolute;
+    position: fixed;
     left:960px;
     top:150px;
     font-size: 16px;
