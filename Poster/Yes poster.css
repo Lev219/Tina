@@ -1,9 +1,12 @@
-@font-face{
-    font-family:'Hatton-Semibold' ;
-    src: 'Hatton-Semibold.otf')
-  }
-  body{font-family:'Hatton-Semibold'}
-  p{font-family:'Hatton-Semibold'}
+@font-face {
+    font-family: 'Hatton';
+    src: url('Hatton-Semibold.woff2') format('woff2'),
+        url('Hatton-Semibold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 
 
 .yes{
