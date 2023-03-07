@@ -1,0 +1,119 @@
+/*
+  Coding from Life – Sketch 2: fluid layout
+
+  For sketch 2 you'll be positioning elements relative to a fluid container. This
+  means you'll need to use percentages when positioning and sizingelements within
+  your frame.
+*/
+
+
+body {
+  background-color: black;
+}
+
+
+
+.frame {
+  width: 95vw;
+  height: 57vw;
+  background: white;
+  /* margin: 2.5vw auto; */
+  position: relative;
+  
+}
+
+/* Your CSS goes here */
+.table {
+  width: 60vw;
+  height: 15vw;
+  position: relative;
+  top:27%;
+  left:20vw;
+  transform: skew(20deg);
+  background: rgb(210, 188, 188);
+  z-index:1;
+}
+
+.vase{
+  /* display: block; */
+  width: 5vw;
+  height: 15%;
+  position: relative;
+  top: 70%;
+  left:55%;
+  background-color: rgb(66, 40, 40);
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  z-index: 4;
+  
+}
+.flower{
+    width: 0.5vw;
+    height: 9vw;
+    position: relative;
+    top: 48%;
+    left:57%;
+    background: rgb(37, 82, 45);
+    z-index:2;
+  }
+.circle1{
+  width: 2vw;
+  height: 2vw;
+  background: rgb(196, 24, 24);
+  border-radius: 50%;
+  position: relative;
+  z-index:3;
+  top: 30%;
+  left:56%;
+}
+.circle2{
+  width: 2vw;
+  height: 2vw;
+  background: rgb(196, 24, 24);
+  border-radius: 50%;
+  position: relative;
+  z-index:3;
+  top: 29%;
+  left:57%;
+}
+
+.circle3{
+  width: 2vw;
+  height: 2vw;
+  background: rgb(196, 24, 24);
+  border-radius: 50%;
+  position: relative;
+  z-index:3;
+  top: 25%;
+  left:56%;
+}
+.fruit{
+width: 35px;
+height: 20px;
+background: rgb(232, 141, 23);
+border-radius: 100px / 50px;
+z-index:3;
+position: relative;
+top: 40%;
+left:70%;
+}
+.fruit1{
+  width: 35px;
+  height: 20px;
+  background: rgb(232, 141, 23);
+  border-radius: 100px / 50px;
+  z-index:3;
+  position: relative;
+  top: 40%;
+  left:70%;
+  }
+
+  .fruit2{
+    width: 35px;
+    height: 20px;
+    background: rgb(232, 141, 23);
+    border-radius: 100px / 50px;
+    z-index:2;
+    position: relative;
+    top: 40%;
+    left:68%;
+    }
