@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="OuLiPo x William Carlos William's This Is Just To Say">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="variable.css">
+  </head>
+  <script>
+    function refreshPage(){
+    window.location.reload();
+} 
+ // We haven't covered functions yet, so just use this for now.
+    // Example usage: `randomItemFromArray(pastParticiples)`
+    function randomItemFromArray(arr) {
+      return arr[Math.floor(Math.random() * arr.length)];
+    }
+
+    // 1a
+    // Declare variable called `pastParticiples`. Initialize it with an Array of strings verbs in the past tense.
+      let pastParticiples = ['closed', 'stolen'];
+
+    // 1b
+    // Next, declare a variable called `pastParticiple`. Initialize it with `randomItemFromArray(pastParticiples)`.
+      let pastParticiple = randomItemFromArray(pastParticiples);
+
+    // 2a
+    // Declare a variable called `nouns`. Initialize it with an Array of strings that are nouns.
+    let nouns = ['tabs', 'browsers', 'to read', 'codepen animation', 'computer','for your wed design'];
+
+    // 2b
+    // Next, declare variables `noun1`, `noun2` and `noun3`. Initialize them all using `randomItemFromArray(nouns)`.
+    let noun1 = randomItemFromArray(nouns);
+    let noun2 = randomItemFromArray(nouns);
+    let noun3 = randomItemFromArray(nouns);
+
+    // 3a
+    // Declare a variable called `adjectives`. Initialize it with an Array of strings that are adjectives.
+    let adjectives = ['whimsical', 'waggish', 'merry', 'interactive', 'dynamic','universal'];
+
+    // 3b
+    // Next, declare variables `adj1`, `adj2` and `adj3`. Initialize them all using `randomItemFromArray(adjectives)`.
+    let adj1 = randomItemFromArray(adjectives);  
+    let adj2 = randomItemFromArray(adjectives);  
+    let adj3 = randomItemFromArray(adjectives);  
+
+
+    // Declaring a variable `poem` and intializing it with a string value.
+    // Note: the `${}`. This acts as placeholders in the string of poem text.
+    var poem = `
+      I have ${pastParticiple}
+      the ${noun1}
+      that were in
+      the ${noun2}
+
+      and which
+      you were probably
+      saving ${noun3}
+
+      Forgive me
+      they were ${adj1}
+      so ${adj2}
+      and so ${adj3}
+    `;
+
+    // If you have declared and initialized all the variables correctly, you should see a new poem.
+    // Open up the Chrome developer console (via Option+Command+I), navigate to the "Console" tab,
+    // and you should see your new output.
+    document.write(poem);
+    console.log(poem);
+
+    const poemOriginal = `
+      I have eaten
+      the plums
+      that were in
+      the icebox
+
+      and which
+      you were probably
+      saving
+      for breakfast
+
+      Forgive me
+      they were delicious
+      so sweet
+      and so cold
+    `;
+  </script>
+  <style>
+   html {
+    font-size: 3em;
+    padding: 3em;  
+    background-color: rgb(246, 215, 209);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: -0.03em;
+    text-align: left;
+   }
+
+   button {
+    border: solid 1px;
+    font-size: 0.5em;
+    text-align: left;
+    padding: 0.5em;
+    margin: 2em;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: none;
+    -webkit-text-stroke-width: 0;
+    background-color: rgb(113, 18, 7);
+    letter-spacing: -0.03em;
+    cursor: pointer;
+    font-family: Hatton-Semibold;
+   }
+  </style>
+  <body>
+    <button type="submit" onClick="refreshPage()">click me!</button>
+  </body>
+</html>
