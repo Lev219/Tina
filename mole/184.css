@@ -1,0 +1,132 @@
+*{
+    /* 初始化 */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* 方便演示 满屏居中 */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1220px;
+}
+li{
+    list-style: none;
+    position: relative;
+    width: 400px;
+    height: 260px;
+    float: left;
+    margin: 5px 10px 5px 0;
+    /* 溢出隐藏 */
+    overflow: hidden;
+}
+li img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* 过渡效果 */
+    transition: 0.25s ease-in;
+}
+li p{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.75);
+    position: absolute;
+    left: 0;
+    /* 默认移出可视范围 */
+    top: -100%;
+    font-size: 15px;
+    color: #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    line-height: 24px;
+}
+li:hover img{
+    /* 悬停图片变大 */
+    transform: scale(1.1);
+}
+li:nth-child(3){
+    margin-right: 0;
+    width: 400px;
+    height: 530px;
+}
+li:nth-child(4),
+li:nth-child(5){
+    margin-top: -265px;
+}
+li:nth-child(5){
+    margin-left: 410px;
+}
+li:nth-child(8){
+    margin-right: 0;
+}
+  
+.lamu1{
+    position: absolute;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  left: 68%;
+  top: 10px;
+  font-size: 5px;
+}
+.lamu2{
+    position: absolute;
+  animation-name: floating;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  left: 34%;
+  top: 10px;
+  font-size: 5px;
+}
+.lamu3{
+    position: absolute;
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  left: 80%;
+  top: 10px;
+  font-size: 5px;
+}
+.lamu4{
+    position: absolute;
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  left: 18%;
+  top: 10px;
+  font-size: 5px;
+}
+.lamu5{
+    position: absolute;
+  animation-name: floating;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  left: 52%;
+  top: 10px;
+  font-size: 5px;
+}
+@keyframes floating {
+    0%{ transform: translate(0,  0px); }
+    50%{ transform: translate(0, 50px); }
+    100%{ transform: translate(0, 0px); }   
+ }
+
+ .title{
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top:20px;
+    right: 20px;
+  }
